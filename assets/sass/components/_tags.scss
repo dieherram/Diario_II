@@ -1,0 +1,13 @@
+aside{
+    ul{
+        list-style:none;
+        display:inline-flex
+    }
+    li{
+        background-color: $turk;
+        margin-right: 3px;
+    }
+    a{
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,90 @@
+// Barra de navegación <nav>
+nav{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+            nav{
+                .nav__item1{
+                    display:none;
+                }
+            }
+    }
+
+.nav__menu {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid gray
+}
+
+.nav__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.nav__nav {
+    text-align: right;
+    float: right;
+}
+
+.nav__nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+// Sección principal <main>
+main{
+    float: left;
+    width: 100%;
+}
+
+main{
+    img{
+        width: 100%;
+    }
+}
+
+// Columna ubicada a la derecha <aside>
+aside{
+    float: right;
+    width: 100%;
+}
+
+.aside__nosotros, .aside__tags{
+    border-bottom: 1px solid gray;
+}
+
+.input-menu{
+    border-radius: 15px;
+}
+
+aside{
+    img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    aside{
+        display:none;
+    }
+}
+
+// Area de suscripción de usuarios <section>
+section{
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 130px;
+    background-color: $gray;
+}
+
+// Pie de pagina <footer>
+footer{
+    text-align: center;
+    width: 100%
+}
